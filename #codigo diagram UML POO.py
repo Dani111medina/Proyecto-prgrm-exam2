@@ -19,5 +19,5 @@ class Jugador(Persona):
     def __str__(self):
         return f"{super().__str__()}, Número Federación: {self.numFed}"
 
-jugador = Jugador("Daniel Medina", "12345678X", date(1990, 5, 14), 1010)
+jugador = Jugador("Daniel Medina", "12345678X", date(2007, 2, 5), 2025)
 print(jugador)
